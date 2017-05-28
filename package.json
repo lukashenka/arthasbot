@@ -11,7 +11,7 @@
     "test": "mocha --compilers js:babel-register",
     "db:migration:create": "sequelize migration:create --config lib/config/sequelize.config.js --migrations-path scripts/migrations",
     "db:migrate": "sequelize db:migrate --config lib/config/sequelize.config.js --migrations-path scripts/migrations",
-    "db:migrate:undo": "sequelize db:migrate:undo --config lib/config/sequelize.config.js"
+    "db:migrate:undo": "sequelize db:migrate:undo --config lib/config/sequelize.config.js --migrations-path scripts/migrations "
   },
   "author": "Klim S. <safonovklim@gmail.com>",
   "license": "UNLICENSED",
