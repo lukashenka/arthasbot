@@ -6,6 +6,11 @@ module.exports = {
   up: function (queryInterface, Sequelize) {
     return queryInterface
       .createTable(tableName, {
+        id: {
+          type: DataTypes.INTEGER,
+          unique: true,
+          primaryKey: true,
+        },
         selectedAt: {
           type: Sequelize.DataTypes.DATE,
           allowNull: false,
