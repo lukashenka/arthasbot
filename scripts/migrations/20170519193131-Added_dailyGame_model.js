@@ -8,8 +8,8 @@ module.exports = {
       .createTable(tableName, {
         id: {
           type: Sequelize.DataTypes.INTEGER,
-          unique: true,
           primaryKey: true,
+          autoIncrement: true,
         },
         selectedAt: {
           type: Sequelize.DataTypes.DATE,
