@@ -7,7 +7,7 @@ module.exports = {
     return queryInterface
       .createTable(tableName, {
         id: {
-          type: DataTypes.INTEGER,
+          type: Sequelize.DataTypes.INTEGER,
           unique: true,
           primaryKey: true,
         },
