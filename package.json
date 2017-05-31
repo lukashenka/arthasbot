@@ -27,7 +27,8 @@
     "babel-register": "^6.11.6",
     "mocha": "^3.0.1",
     "nodemon": "^1.10.0",
-    "sequelize-cli": "latest"
+    "sequelize-cli": "latest",
+    "babel-preset-es2017-node7": "latest"
   },
   "dependencies": {
     "dotenv": "^4.0.0",
