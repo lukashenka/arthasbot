@@ -26,7 +26,8 @@
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.11.6",
     "mocha": "^3.0.1",
-    "nodemon": "^1.10.0"
+    "nodemon": "^1.10.0",
+    "sequelize-cli": "latest"
   },
   "dependencies": {
     "dotenv": "^4.0.0",
