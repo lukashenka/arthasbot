@@ -36,6 +36,6 @@
     "pg": "^6.1.5",
     "sequelize": "^3.30.4",
     "telegraf": "^3.6.10",
-    "mysql": "latest
+    "mysql": "latest"
   }
 }
