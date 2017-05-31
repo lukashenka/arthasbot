@@ -34,7 +34,7 @@
     "dotenv": "^4.0.0",
     "lodash": "^4.17.4",
     "pg": "^6.1.5",
-    "next": "^3.30.4",
+    "sequelize": "next",
     "telegraf": "^3.6.10",
     "mysql2": "latest"
   }
